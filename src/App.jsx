@@ -5,10 +5,7 @@ const ListaContatos = () => {
   const [filtro, setFiltro] = useState("");
   const [contatos, setContatos] = useState([
     { id: 1, nome: "Matheus Teixeira", telefone: "99999-1111" },
-    { id: 2, nome: "Rogger Martins", telefone: "99999-2222" },
-    { id: 3, nome: "Carla Mendes", telefone: "99999-3333" },
-    { id: 4, nome: "Daniel Santos", telefone: "99999-4444" },
-    { id: 5, nome: "Gabriel Pavan", telefone: "99999-5555"}
+    { id: 2, nome: "Gabriel Pavan", telefone: "99999-2222"}
   ]);
 
   const contatosFiltrados = contatos.filter((contato) =>
